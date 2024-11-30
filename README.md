@@ -1,5 +1,5 @@
 # DisableBackgroundNoise
-This mod simply removes the background noise in forest.
+This mod just removes the background noise in forest.
 
 
 #### **Requirements**
