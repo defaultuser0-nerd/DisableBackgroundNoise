@@ -1,19 +1,17 @@
-﻿using BepInEx;
+using BepInEx;
 using UnityEngine;
 
 namespace DisableBackgroundNoise
 {
-    [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
-	public class Plugin : BaseUnityPlugin
+   [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
+   public class Plugin : BaseUnityPlugin
+   {
+	void Start()
 	{
-		bool inRoom;
-
-		void Start()
-		{
             HarmonyPatches.ApplyHarmonyPatches();
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/AudioBirds").SetActive(false);
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/AudioSpookyWind").SetActive(false);
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/AudioCrickets").SetActive(false);
         }
-	}
+    }
 }
