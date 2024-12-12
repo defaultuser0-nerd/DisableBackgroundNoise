@@ -19,7 +19,7 @@ namespace DisableBackgroundNoise
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/AudioSpookyWind").SetActive(false);
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/AudioCrickets").SetActive(false);
             GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/Environment/WeatherDayNight/rain").SetActive(false);
-            Debug.Log("Removed Background Noise")
+            Debug.Log("Removed Background Noise");
         }
     }
 }
