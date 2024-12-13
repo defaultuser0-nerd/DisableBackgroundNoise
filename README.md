@@ -9,7 +9,7 @@ This mod just removes the background noise in forest.
 #### **Installation**
 1. Download the [Mod](https://github.com/defaultuser0-nerd/DisableBackgroundNoise/releases/latest)
 2. Go to your plugins folder
-3. And extract the zip file
+3. And put the dll in there
 4. Now you get in the game and (should) have no background noise!
 
 
