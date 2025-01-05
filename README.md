@@ -1,4 +1,5 @@
 # DisableBackgroundNoise
+<a href="https://github.com/defaultuser0-nerd/DisableBackgroundNoise/releases"><img src="https://img.shields.io/github/downloads/defaultuser0-nerd/DisableBackgroundNoise/total.svg?style=for-the-badge"></a>
 This mod just removes the background noise in forest.
 
 
